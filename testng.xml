@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.buildiumstaging.demoaccount.buildium.Listener"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.buildiumstaging.demoaccount.buildium.ReportOperationTest"/>
+      <class name="com.buildiumstaging.demoaccount.buildium.ValidateAddTemplate"/>
+      <class name="com.buildiumstaging.demoaccount.buildium.ValidateLogin"/>
+      <class name="com.buildiumstaging.demoaccount.buildium.ValidateProperty"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

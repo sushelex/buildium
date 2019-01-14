@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="219662" started-at="2019-01-14T17:59:33Z" finished-at="2019-01-14T18:03:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="219662" started-at="2019-01-14T17:59:33Z" finished-at="2019-01-14T18:03:12Z">
+      <class name="com.buildiumstaging.demoaccount.buildium.ValidateAddTemplate">
+        <test-method status="PASS" signature="validateAddtemplate()[pri:0, instance:com.buildiumstaging.demoaccount.buildium.ValidateAddTemplate@1e88b3c]" name="validateAddtemplate" duration-ms="43113" started-at="2019-01-14T18:01:23Z" depends-on-methods="com.buildiumstaging.demoaccount.buildium.ValidateLogin.validateLogin" finished-at="2019-01-14T18:02:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddtemplate -->
+      </class> <!-- com.buildiumstaging.demoaccount.buildium.ValidateAddTemplate -->
+      <class name="com.buildiumstaging.demoaccount.buildium.ValidateLogin">
+        <test-method status="PASS" signature="validateLogin()[pri:0, instance:com.buildiumstaging.demoaccount.buildium.ValidateLogin@42d80b78]" name="validateLogin" duration-ms="58185" started-at="2019-01-14T17:59:33Z" finished-at="2019-01-14T18:00:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="getResult()[pri:0, instance:com.buildiumstaging.demoaccount.buildium.ValidateLogin@42d80b78]" name="getResult" is-config="true" duration-ms="6464" started-at="2019-01-14T18:03:13Z" finished-at="2019-01-14T18:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.buildiumstaging.demoaccount.buildium.ValidateLogin -->
+      <class name="com.buildiumstaging.demoaccount.buildium.ValidateProperty">
+        <test-method status="PASS" signature="addPropertyTest()[pri:0, instance:com.buildiumstaging.demoaccount.buildium.ValidateProperty@3bfdc050]" name="addPropertyTest" duration-ms="65757" started-at="2019-01-14T18:02:06Z" depends-on-methods="com.buildiumstaging.demoaccount.buildium.ValidateLogin.validateLogin" finished-at="2019-01-14T18:03:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPropertyTest -->
+      </class> <!-- com.buildiumstaging.demoaccount.buildium.ValidateProperty -->
+      <class name="com.buildiumstaging.demoaccount.buildium.ReportOperationTest">
+        <test-method status="PASS" signature="validateReport()[pri:0, instance:com.buildiumstaging.demoaccount.buildium.ReportOperationTest@77caeb3e]" name="validateReport" duration-ms="52348" started-at="2019-01-14T18:00:31Z" depends-on-methods="com.buildiumstaging.demoaccount.buildium.ValidateLogin.validateLogin" finished-at="2019-01-14T18:01:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateReport -->
+      </class> <!-- com.buildiumstaging.demoaccount.buildium.ReportOperationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
